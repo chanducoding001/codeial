@@ -1,3 +1,3 @@
-module.exports.home=(req,res)=>{
-    return res.end('<h1>express is up for codeial</h1>')
+module.exports.home = function(req, res){
+    return res.end('<h1>Express is up for Codeial!</h1>')
 }

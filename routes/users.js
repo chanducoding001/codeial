@@ -1,6 +1,9 @@
-const express=require("express");
-const router=express.Router();
+const express = require('express');
+const router = express.Router();
 
-const usersController=require("../controllers/users_controller");
+const usersConrtoller = require('../controllers/users_controller');
 
-module.exports=router;
+router.get('/profile', usersConrtoller.profile);
+
+
+module.exports = router;
